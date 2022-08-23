@@ -1,7 +1,7 @@
 build:
   docker:
     web:
-      target: application
+      target: app
       dockerfile: Dockerfile
 
 release:
