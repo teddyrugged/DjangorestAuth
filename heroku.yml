@@ -1,7 +1,7 @@
 build:
   docker:
     web:
-      target: Account
+      target: Authenticate
       dockerfile: Dockerfile
 
 release:
