@@ -78,14 +78,13 @@ WSGI_APPLICATION = 'Authenticate.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "postgres",
-        "USER": "postgres",
-        "PASSWORD": "postgres",
-        "HOST": "localhost",
+        "NAME": "d253esabeffkqj",
+        "USER": "yoxicqxubkpedn",
+        "PASSWORD": "dcca6d1a94bf58cd0a1df9a1eb7b8463b4177254f65f8c10025addda06458588",
+        "HOST": "ec2-44-193-178-122.compute-1.amazonaws.com",
         "PORT": 5432,
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
