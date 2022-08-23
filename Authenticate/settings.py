@@ -25,7 +25,7 @@ SECRET_KEY = '@+h(jb(m6tpo8rzn%b1rt8h3!9p#eb09$!-k3yx_0w$)0f2dxv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://warm-sea-19468.herokuapp.com/','*']
 
 
 # Application definition
