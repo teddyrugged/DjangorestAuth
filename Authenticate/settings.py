@@ -86,6 +86,8 @@ DATABASES = {
     }
 }
 
+# postgres://yoxicqxubkpedn:dcca6d1a94bf58cd0a1df9a1eb7b8463b4177254f65f8c10025addda06458588@ec2-44-193-178-122.compute-1.amazonaws.com:5432/d253esabeffkqj
+
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
