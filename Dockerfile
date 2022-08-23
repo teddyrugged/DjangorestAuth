@@ -5,4 +5,4 @@ WORKDIR /code
 COPY requirements.txt /code/
 RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . /code/
-CMD gunicorn Authenticate.wsgi:Account --bind 0.0.0.0:$PORT
+CMD gunicorn Authenticate.wsgi:application --bind 0.0.0.0:$PORT
