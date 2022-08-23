@@ -1,8 +1,6 @@
 build:
   docker:
-    web:
-      target: app
-      dockerfile: Dockerfile
+    web: Dockerfile
 
 release:
   image: web
@@ -10,4 +8,4 @@ release:
     - ./bin/migrate
 
 run:
-  web: ./bin/start
+  web: gunicorn Authenticate.wsgi:application --bind 0.0.0.0:$PORT
