@@ -9,6 +9,7 @@ dj-database-url==1.0.0
 Django==4.1
 django-allauth==0.40.0
 django-cors-headers==3.13.0
+django-on-heroku==1.1.2
 django-rest-auth==0.9.5
 djangorestframework==3.13.1
 djangorestframework-simplejwt==5.2.0
@@ -34,4 +35,3 @@ toml==0.10.2
 tomli==2.0.1
 urllib3==1.26.9
 whitenoise==6.2.0
-
